@@ -1,0 +1,43 @@
+{
+  "name": "artech",
+  "version": "1.0.0",
+  "description": "Backend from Artech",
+  "main": "app.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/app.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/203459/artech-backend.git"
+  },
+  "author": "Intec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/203459/artech-backend/issues"
+  },
+  "homepage": "https://github.com/203459/artech-backend#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.9.0",
+    "@types/signale": "^1.4.7",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/pg": "^8.10.9",
+    "@types/sequelize": "^4.28.18",
+    "bcrypt": "^5.1.1",
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.1",
+    "sequelize-typescript": "^2.1.5",
+    "signale": "^1.4.0"
+  }
+}
